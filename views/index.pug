@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+    body
+    nav
+        ul.menu
+            li: a( href="/") inicio
+            li: a(href= "/ejercicio1") ejercicio 1
+            li: a(href= "/ejercicio2") ejercicio 2
+            li: a(href= "/ejercicio3") ejercicio 3
+            li: a(href= "/ejercicio4") ejercicio 4
+            li: a(href= "/ejercicio5") ejercicio 5
+            li: a(href= "/ejercicio6") ejercicio 6
+            li: a(href= "/ejercicio7") ejercicio 7
+            li: a(href= "/ejercicio8") ejercicio 8
+
+            h4 1. Cuáles son los operadores lógicos y matemáticos utilizados 
+            p operadores logicos : Son operadores de unión, estos operadores pueden unir dos o más pares de valores comparados por medio de los operadores relaciones: 
+            p && : Operador AND (Y) todas las condiciones deben ser verdaderas para que se ejecute una acción. 
+            p || : Operador OR (O) de todas las condiciones solo una debe ser verdadera y con  hace determinada acción.
+            p ! : Operador NOT (NO) se niega la afirmación para cambiar su valor, es decir cambia de verdadero a falso y de falso a verdadero.
+            p operadores matematico:
+            p == : igual que
+            p != : diferente a
+            p > : mayor que
+            p < : menor que
+            p >= : mayor igual que
+            p <= : menor igual que
+            p +: Suma de dos o más valores o variables.
+            p -: Resta de dos o más valores o variables.
+            p *: Multiplicación de dos o más valores o variables.
+            p  /: División de dos o más valores o variables.
+            p  %: Modulo (obtención del residuo de una división) de dos o más valores o variables.
+            p ++: Aumenta el valor de una variable en una unidad.
+            p --: Dismuniye el valor de una variable en una unidad.
+            p -: Cambia el signo de una variable, es como multiplicar por -1
+
+            h4 2. Qué es la ESTRUCTURA CONDICIONAL (IF) y cómo se utiliza
+            p En una estructura condicional en "(forma de comportarse)" se indica una condición. si ésta se cumple el programa ejecutará las sentencias incluidas entre corchetes, si no es así puede que no haga nada o que ejecute otra acción distinta, dependiendo de lo que se le indique.
+            
+            h4 3. Para qué se utiliza la sentencia switch, de ejemplos
+            p Esta estructura permite considerar decisiones para más de dos posibilidades. 
+            p switch (mercado) {
+            p    case 'papa':
+            p console.log('la libra de papa cuesta $900.');
+            p break;
+            p case 'yuca':
+            p console.log('la libra de yuca cuesta $1200.');
+            p break;
+            p case 'platano':
+            p console.log('la libra de platano cuesta $500.');
+            p }
+
+            h4 4. Qué son las ESTRUCTURAS REPETITIVAS (FOR, WHILE, DO/WHILE) y cómo se utiliza
+            h6 WHILE
+            p Si queremos hacer que una sección de nuestro programa se repita mientras se cumpla una cierta condición, usaremos la orden “while”. Esta orden tiene dos formatos distintos, según comprobemos la condición al principio o al final.
+            p En el primer caso, su sintaxis es
+            p while (condición)
+            p sentencia;
+            p Es decir, la sentencia se repetirá mientras la condición sea cierta. Si la condición es falsa ya desde un principio, la sentencia no se ejecuta nunca. Si queremos que se repita más de una sentencia, basta agruparlas entre { y }. Como ocurria con "if", puede ser recomendable incluir siempre las llaves, aunque sea una única sentencia, para evitar errores posteriores difíciles de localizar.
+
+            h6 DO WHILE
+            p Este es el otro formato que puede tener la orden “while”: la condición se comprueba al final. El punto en que comienza a repetirse se indica con la orden “do”, así:
+            p do 
+            p sentencia;
+            p while (condición);
+            p Al igual que en el caso anterior, si queremos que se repitan varias órdenes (es lo habitual), deberemos encerrarlas entre llaves. Nuevamente, puede ser recomendable incluir siempre las llaves, como costumbre.
+
+            h6 FOR
+            p Ésta es la orden que usaremos habitualmente para crear partes del programa que se repitan un cierto número de veces. El formato de “for” es
+            p for (valorInicial; CondiciónRepetición; Incremento)
+            p Sentencia;

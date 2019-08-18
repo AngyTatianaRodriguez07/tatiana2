@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+    
+
+    body
+    nav
+        ul.menu
+        li: a( href="/") inicio
+            li: a(href= "/ejercicio1") ejercicio 1
+            li: a(href= "/ejercicio2") ejercicio 2
+            li: a(href= "/ejercicio3") ejercicio 3
+            li: a(href= "/ejercicio4") ejercicio 4
+            li: a(href= "/ejercicio5") ejercicio 5
+            li: a(href= "/ejercicio6") ejercicio 6
+            li: a(href= "/ejercicio7") ejercicio 7
+            li: a(href= "/ejercicio8") ejercicio 8
+            
+    h1 EJERCICIO 8
+
+    h3 tamaño del array
+    form(action="ejercicioOcho" method="POST")
+        p vector : #{tamanoArray}
+        input(class="btn btn-danger" type="submit", value="Generar")
+    h4 Numeros: #{numeros}
+    h4 suma par: #{sumPar} 
+    h4 suma Impar: #{sumImpar}
+    h4 no Pares: #{cantPar}
+    h4 no Impares: #{cantImpar}
